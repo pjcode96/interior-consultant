@@ -5,10 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body>
+    <header class="header container">
+        <h1 class="header__title">This interior</h1>
+        <a href="header__menu-icon">
+            <svg width="3.4rem" height="3.44rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#FFF" d="M3 4h18v2H3V4Zm0 7h18v2H3v-2Zm0 7h18v2H3v-2Z" />
+            </svg>
+        </a>
+        <nav class="header__navigation">
+            <a href="#" class="header__navigation__link">Home</a>
+            <a href="#" class="header__navigation__link">Collection</a>
+            <a href="#" class="header__navigation__link">About</a>
+            <a href="#" class="header__navigation__link">Contact</a>
+        </nav>
+    </header>
 
+    <main class="description-container container">
+        <div class="description">
+            <h2 class="description__title">Modern interior</h2>
+            <p class="description__text">
+                A full-service residential & commercial interior design and staging company offering professional
+                organizing
+                & eco-services.
+            </p>
+            <a href="#" class="description__read-more">Read more
+                <svg class="description__read-more-arrow" width="2rem" height="2rem" viewBox="0 0 15 15"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#ffffff" fill-rule="evenodd"
+                        d="M9.854 3.146L14.207 7.5l-4.353 4.354l-.708-.708L12.293 8H1V7h11.293L9.146 3.854l.708-.708Z"
+                        clip-rule="evenodd" />
+                </svg>
+            </a>
+        </div>
+        <div class="card-container">
+            <img src="./images/photo1.png" alt="Interior design">
+
+            <div class="card">
+                <div class="card__header">
+                    <img src="./images/photo2.png" alt="Aliza Webber's picture" class="card__picture">
+                    <div class="card__designer-description">
+                        <p class="designer__name">Aliza Webber</p>
+                        <p class="designer__category">Interior designer</p>
+                    </div>
+                </div>
+                <p class="card__description">
+                    Designed in 2023 by Aliza Webber
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__text"></p>
+    </footer>
 </body>
 
 </html>
